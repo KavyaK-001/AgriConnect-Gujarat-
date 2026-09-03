@@ -1,0 +1,272 @@
+{
+  "app": {
+    "name": "AgriConnect Gujarat",
+    "tagline": "AI-Powered Market Linkage",
+    "language_options": [
+      "en",
+      "gu"
+    ],
+    "navigation": [
+      {
+        "page": "home",
+        "icon": "🏠",
+        "en": "Home",
+        "gu": "હોમ"
+      },
+      {
+        "page": "mandi",
+        "icon": "📈",
+        "en": "Price Forecast",
+        "gu": "ભાવ અનુમાન"
+      },
+      {
+        "page": "buyers",
+        "icon": "🤝",
+        "en": "Find Buyers",
+        "gu": "ખરીદદાર"
+      },
+      {
+        "page": "storage",
+        "icon": "🏪",
+        "en": "Sell or Store",
+        "gu": "વેચો / સ્ટોર"
+      },
+      {
+        "page": "quality",
+        "icon": "🔍",
+        "en": "Quality Grade",
+        "gu": "ગ્રેડ"
+      },
+      {
+        "page": "income",
+        "icon": "💰",
+        "en": "My Income",
+        "gu": "આવક"
+      }
+    ],
+    "pages": [
+      {
+        "id": "pg-home",
+        "title": "AgriConnect Gujarat 🌾"
+      },
+      {
+        "id": "pg-mandi",
+        "title": "📈 Mandi Price Forecast"
+      },
+      {
+        "id": "pg-buyers",
+        "title": "🤝 Find Direct Buyers"
+      },
+      {
+        "id": "pg-storage",
+        "title": "🏪 Storage & Timing Advisor"
+      },
+      {
+        "id": "pg-quality",
+        "title": "🔍 Quality Grading AI"
+      },
+      {
+        "id": "pg-income",
+        "title": "💰 My Income Dashboard"
+      }
+    ]
+  },
+  "config": {
+    "AGMARKNET_URL": "https://api.data.gov.in/resource/9ef84268-d588-465a-a308-a864a43d0070",
+    "AGMARKNET_KEY": "your_data_gov_in_api_key",
+    "BUYER_API_URL": null,
+    "CACHE_TTL_MS": 14400000,
+    "MANDIS": [
+      "Rajkot",
+      "Junagadh",
+      "Ahmedabad",
+      "Bhavnagar",
+      "Amreli",
+      "Gondal"
+    ],
+    "CROPS": [
+      "Cotton",
+      "Groundnut"
+    ]
+  },
+  "fallback_mandi_data": {
+    "Cotton": {
+      "Rajkot": {
+        "modal": 6840,
+        "min": 6500,
+        "max": 7100,
+        "hist": [
+          6620,
+          6650,
+          6700,
+          6720,
+          6760,
+          6810,
+          6840
+        ]
+      },
+      "Junagadh": {
+        "modal": 6780,
+        "min": 6450,
+        "max": 7050,
+        "hist": [
+          6560,
+          6590,
+          6640,
+          6680,
+          6720,
+          6750,
+          6780
+        ]
+      },
+      "Ahmedabad": {
+        "modal": 6900,
+        "min": 6600,
+        "max": 7200,
+        "hist": [
+          6680,
+          6710,
+          6760,
+          6800,
+          6850,
+          6880,
+          6900
+        ]
+      },
+      "Bhavnagar": {
+        "modal": 6820,
+        "min": 6500,
+        "max": 7080,
+        "hist": [
+          6600,
+          6630,
+          6670,
+          6720,
+          6770,
+          6800,
+          6820
+        ]
+      },
+      "Amreli": {
+        "modal": 6750,
+        "min": 6420,
+        "max": 7020,
+        "hist": [
+          6530,
+          6560,
+          6600,
+          6640,
+          6690,
+          6720,
+          6750
+        ]
+      },
+      "Gondal": {
+        "modal": 6870,
+        "min": 6550,
+        "max": 7130,
+        "hist": [
+          6640,
+          6670,
+          6720,
+          6770,
+          6820,
+          6845,
+          6870
+        ]
+      }
+    },
+    "Groundnut": {
+      "Rajkot": {
+        "modal": 5980,
+        "min": 5600,
+        "max": 6300,
+        "hist": [
+          5800,
+          5830,
+          5860,
+          5900,
+          5930,
+          5960,
+          5980
+        ]
+      },
+      "Junagadh": {
+        "modal": 6050,
+        "min": 5700,
+        "max": 6380,
+        "hist": [
+          5860,
+          5890,
+          5920,
+          5960,
+          6000,
+          6030,
+          6050
+        ]
+      },
+      "Ahmedabad": {
+        "modal": 6100,
+        "min": 5750,
+        "max": 6420,
+        "hist": [
+          5900,
+          5930,
+          5960,
+          6000,
+          6040,
+          6075,
+          6100
+        ]
+      },
+      "Bhavnagar": {
+        "modal": 5940,
+        "min": 5580,
+        "max": 6260,
+        "hist": [
+          5760,
+          5790,
+          5820,
+          5860,
+          5895,
+          5920,
+          5940
+        ]
+      },
+      "Amreli": {
+        "modal": 6000,
+        "min": 5650,
+        "max": 6320,
+        "hist": [
+          5820,
+          5850,
+          5880,
+          5915,
+          5950,
+          5975,
+          6000
+        ]
+      },
+      "Gondal": {
+        "modal": 6030,
+        "min": 5680,
+        "max": 6340,
+        "hist": [
+          5840,
+          5870,
+          5900,
+          5935,
+          5970,
+          6005,
+          6030
+        ]
+      }
+    }
+  },
+  "data_sources": {
+    "market_prices": "Agmarknet (data.gov.in)",
+    "buyer_offers": "Illustrative estimates",
+    "ai_forecast": "Linear regression based on recent modal prices",
+    "quality_grading": "AI estimate, not official certification"
+  }
+}
