@@ -22,6 +22,6 @@ information and services.
 
 ## 🌐 Live Demo
 <p>
-  <a href="https://kavyak-001.github.io/AgriConnect-Gujarat">🚀 View Live Demo</a>
+  <a href="https://kavyak-001.github.io/AgriConnect-Gujarat-">🚀 View Live Demo</a>
 </p>
 
